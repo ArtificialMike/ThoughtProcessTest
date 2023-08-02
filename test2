@@ -1,0 +1,116 @@
+<html>
+<head>
+  <title>Business Process Optimisation Consulting Company</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Company Name</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="hero" class="bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Welcome to Business Process Optimisation Consulting Company</h1>
+      <p class="lead">We help businesses streamline their processes for maximum efficiency and productivity.</p>
+    </div>
+  </section>
+
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>About Us</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus ex in est ultricies, sit amet rutrum nibh commodo. Praesent consequat, mi sed tempor suscipit, nisi justo rutrum magna, in placerat eros sem eu nibh. Fusce lacinia ipsum est, ut blandit nisl gravida vel. Integer at cursus lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla commodo pellentesque aliquet.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="https://source.unsplash.com/featured/?office" class="img-fluid rounded" alt="Office">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="bg-light py-5">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="https://source.unsplash.com/featured/?meeting" class="card-img-top" alt="Meeting">
+            <div class="card-body">
+              <h5 class="card-title">Process Analysis</h5>
+              <p class="card-text">We analyze your existing processes to identify bottlenecks and areas for improvement.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="https://source.unsplash.com/featured/?teamwork" class="card-img-top" alt="Teamwork">
+            <div class="card-body">
+              <h5 class="card-title">Process Optimization</h5>
+              <p class="card-text">We optimize your processes by implementing industry best practices and automation solutions.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="https://source.unsplash.com/featured/?strategy" class="card-img-top" alt="Strategy">
+            <div class="card-body">
+              <h5 class="card-title">Strategic Planning</h5>
+              <p class="card-text">We help you develop a strategic roadmap for long-term process improvement and business growth.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <h5>Contact Details</h5>
+          <p>Address: 123 Main Street, City, State ZIP</p>
+          <p>Email: info@company.com</p>
+          <p>Phone: 123-456-7890</p>
+        </div>
+      </div>
+    </div>
+  </section>
